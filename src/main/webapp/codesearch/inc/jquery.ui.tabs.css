@@ -1,0 +1,36 @@
+.ui-tabs {
+	POSITION: relative; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; ZOOM: 1; PADDING-TOP: 0.2em
+}
+.ui-tabs .ui-tabs-nav {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; PADDING-TOP: 0.2em
+}
+.ui-tabs .ui-tabs-nav LI {
+	BORDER-BOTTOM: 0px; POSITION: relative; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 0.2em 1px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; FLOAT: left; TOP: 1px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+.ui-tabs .ui-tabs-nav LI A {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; FLOAT: left; TEXT-DECORATION: none; PADDING-TOP: 0.5em
+}
+.ui-tabs .ui-tabs-nav LI.ui-tabs-selected {
+	PADDING-BOTTOM: 1px; MARGIN-BOTTOM: 0px
+}
+.ui-tabs .ui-tabs-nav LI.ui-tabs-selected A {
+	CURSOR: text
+}
+.ui-tabs .ui-tabs-nav LI.ui-state-disabled A {
+	CURSOR: text
+}
+.ui-tabs .ui-tabs-nav LI.ui-state-processing A {
+	CURSOR: text
+}
+.ui-tabs .ui-tabs-nav LI A {
+	CURSOR: pointer
+}
+.ui-tabs-collapsible.ui-tabs .ui-tabs-nav LI.ui-tabs-selected A {
+	CURSOR: pointer
+}
+.ui-tabs .ui-tabs-panel {
+	PADDING-BOTTOM: 1em; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 1.4em; PADDING-RIGHT: 1.4em; DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 1em
+}
+.ui-tabs .ui-tabs-hide {
+	DISPLAY: none !important
+}

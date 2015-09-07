@@ -1,0 +1,132 @@
+BODY {
+	PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #ffffff; MARGIN: 0em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; FONT-FAMILY: arial, sans-serif; COLOR: black; FONT-SIZE: 100.01%; PADDING-TOP: 0.5em
+}
+A:link {
+	COLOR: #2030a2; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #202062; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #202062; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #202062; TEXT-DECORATION: underline
+}
+SPAN.rightnote {
+	FLOAT: right; FONT-SIZE: 9pt
+}
+SPAN.rightnote_wh {
+	FLOAT: right; COLOR: #ffffff; FONT-SIZE: 9pt; CURSOR: pointer; FONT-WEIGHT: bold
+}
+SPAN.leftnote {
+	FLOAT: left; FONT-SIZE: 9pt
+}
+SPAN.notelink {
+	COLOR: #202062; CURSOR: pointer; TEXT-DECORATION: underline
+}
+.centernote {
+	TEXT-ALIGN: center; FONT-SIZE: 9pt
+}
+TABLE {
+	FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+PRE {
+	FONT-SIZE: 10pt
+}
+.evenRowClass {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #f1f4f8
+}
+.oddRowClass {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #f1f4f8
+}
+.n {
+	COLOR: #0033cc
+}
+.s {
+	COLOR: #0033cc
+}
+.c {
+	COLOR: #008000
+}
+.b {
+	COLOR: #810541; FONT-WEIGHT: bold
+}
+.k {
+	FONT-FAMILY: monospace; COLOR: #000
+}
+.ln {
+	COLOR: #000; FONT-WEIGHT: normal
+}
+.highlight {
+	COLOR: #ff0000; FONT-WEIGHT: bold
+}
+.bookmark_highlight {
+	COLOR: #ff0000; FONT-WEIGHT: bold
+}
+.brandHeader {
+	FONT-FAMILY: Arial; COLOR: #f7f4ef; FONT-SIZE: 13pt; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.vcenter {
+	DISPLAY: table-cell; VERTICAL-ALIGN: middle
+}
+.CommandLineText {
+	BACKGROUND-COLOR: #d0deec
+}
+.helpTable {
+	BACKGROUND-COLOR: #a3c2df
+}
+.tableColumnHeader {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #d0deec; FONT-WEIGHT: bold
+}
+.tableCellText {
+	BACKGROUND-COLOR: #eaeff5
+}
+.note {
+	COLOR: #234a82; FONT-SIZE: 10pt
+}
+.menu-header-item {
+	TEXT-ALIGN: center; FONT-SIZE: 10pt !important; FONT-WEIGHT: bold
+}
+.highlighter {
+	BACKGROUND-COLOR: yellow
+}
+DIV.swatch {
+	MARGIN: 2px 2px 2px 10px; WIDTH: 12px; FLOAT: left; HEIGHT: 12px; FONT-SIZE: 0px
+}
+DIV.swatch-selected {
+	MARGIN: 2px 2px 2px 10px; WIDTH: 12px; FLOAT: left; HEIGHT: 12px; FONT-SIZE: 0px
+}
+DIV.swatch:hover {
+	BORDER-BOTTOM: gray 2px solid; BORDER-LEFT: gray 2px solid; MARGIN: 2px 2px 2px 10px; WIDTH: 8px; HEIGHT: 8px; BORDER-TOP: gray 2px solid; BORDER-RIGHT: gray 2px solid
+}
+DIV.swatch-selected {
+	BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 2px solid; MARGIN: 2px 2px 2px 10px; WIDTH: 8px; HEIGHT: 8px; BORDER-TOP: black 2px solid; BORDER-RIGHT: black 2px solid
+}
+.diffview {
+	BACKGROUND-COLOR: #eaeff5
+}
+.sourceview {
+	BACKGROUND-COLOR: #eaeff5
+}
+#tabs {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+#tabs .ui-tabs-nav {
+	BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px
+}
+#tabs .ui-tabs-panel {
+	PADDING-BOTTOM: 0.3em; BORDER-RIGHT-WIDTH: 1px; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; BACKGROUND: #eaeff5; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; PADDING-TOP: 0.3em
+}
+#tabs LI .ui-icon-close {
+	MARGIN: 0em 0em 0px 0px; FLOAT: left; CURSOR: pointer
+}
+#tabs {
+	FONT-FAMILY: Arial; FONT-SIZE: 10pt
+}
+#tabs LI {
+	MARGIN-TOP: 0em; FONT-SIZE: 9pt
+}
+#tabs LI.ui-tabs-selected {
+	
+}

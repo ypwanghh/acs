@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jee="http://www.springframework.org/schema/jee" xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <bean id="luceneProvider" class="com.mood.acs.service.LuceneProvider"/>    
+    <bean id="deleteIndexFolderTrigger"  
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+        <property name="targetObject">  
+            <ref bean="luceneProvider" />  
+        </property>  
+        <property name="targetMethod">  
+            <value>deleteIndexs</value><!--deleteIndexs/deleteFolder-->
+        </property>  
+    </bean> 
+    
+    <bean id="deleteIndexFolder"  
+        class="org.springframework.scheduling.quartz.CronTriggerBean">  
+        <property name="jobDetail">  
+            <ref bean="deleteIndexFolderTrigger"/>  
+        </property>  
+        <property name="cronExpression">  
+            <value>0 0 1 * * ?</value>  <!--every 3 minus:0 0/3 * * *-->
+        </property>  
+    </bean>
+    
+    <bean id="runBatTrigger"  
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+        <property name="targetObject">  
+            <ref bean="luceneProvider" />  
+        </property>  
+        <property name="targetMethod">  
+            <value>runbat</value>
+        </property>  
+    </bean> 
+    
+    <bean id="runBat"  
+        class="org.springframework.scheduling.quartz.CronTriggerBean">  
+        <property name="jobDetail">  
+            <ref bean="runBatTrigger"/>  
+        </property>  
+        <property name="cronExpression">  
+            <value>0 5 1 * * ?</value>  <!--every 3 minus:0 0/3 * * *-->
+        </property>  
+    </bean>
+    
+    <bean id="createIndexTrigger"  
+        class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+        <property name="targetObject">  
+            <ref bean="luceneProvider" />  
+        </property>  
+        <property name="targetMethod">  
+            <value>main</value>
+        </property>  
+    </bean>  
+    
+    <bean id="createIndex"  
+        class="org.springframework.scheduling.quartz.CronTriggerBean">  
+        <property name="jobDetail">  
+            <ref bean="createIndexTrigger"/>  
+        </property>  
+        <property name="cronExpression">  
+            <value>0 10 1 * * ?</value>  <!--every 3 minus:0 0/3 * * * -->
+        </property>  
+    </bean>
+       
+    <bean  
+        class="org.springframework.scheduling.quartz.SchedulerFactoryBean">  
+        <property name="triggers">  
+            <list>  
+                <ref local="createIndex" />
+                <ref local="deleteIndexFolder" />
+                <ref local="runBat" />
+            </list>  
+        </property>  
+    </bean>  
+       
+</beans>

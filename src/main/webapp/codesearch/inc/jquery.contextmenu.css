@@ -1,0 +1,123 @@
+.context-menu-theme-default {
+	BORDER-BOTTOM: white 2px outset; BORDER-LEFT: white 2px outset; BACKGROUND: #f9f8f7; BORDER-TOP: white 2px outset; BORDER-RIGHT: white 2px outset
+}
+.context-menu-theme-default .context-menu-item {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4px; PADDING-LEFT: 16px; PADDING-RIGHT: 28px; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 12px; CURSOR: pointer; PADDING-TOP: 4px
+}
+.context-menu-theme-default .context-menu-separator {
+	BORDER-BOTTOM: white 1px solid; MARGIN: 4px 2px; FONT-SIZE: 0px; BORDER-TOP: #808080 1px solid
+}
+.context-menu-theme-default .context-menu-item-disabled {
+	COLOR: #808080
+}
+.context-menu-theme-default .context-menu-item .context-menu-item-inner {
+	BACKGROUND: fixed no-repeat 999px 999px
+}
+.context-menu-theme-default .context-menu-item-hover {
+	BACKGROUND-COLOR: #316ac5; COLOR: white
+}
+.context-menu-theme-default .context-menu-item-disabled-hover {
+	
+}
+.context-menu-theme-xp {
+	BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #666 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: url(../images/cmenu-xp-bg.gif) #f9f8f7 repeat-y left top; BORDER-TOP: #666 1px solid; BORDER-RIGHT: #666 1px solid; PADDING-TOP: 1px
+}
+.context-menu-theme-xp .context-menu-separator {
+	BORDER-BOTTOM: white 1px solid; MARGIN: 4px 2px; FONT-SIZE: 0px; BORDER-TOP: #808080 1px solid
+}
+.context-menu-theme-xp .context-menu-item {
+	TEXT-ALIGN: left; FONT-FAMILY: arial; COLOR: black; FONT-SIZE: 11px; CURSOR: pointer
+}
+.context-menu-theme-xp .context-menu-item .context-menu-item-inner {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 30px; PADDING-RIGHT: 10px; BACKGROUND: no-repeat 2px center; PADDING-TOP: 4px
+}
+.context-menu-theme-xp .context-menu-item-hover .context-menu-item-inner {
+	BORDER-BOTTOM: #0a246a 1px solid; BORDER-LEFT: #0a246a 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 29px; PADDING-RIGHT: 9px; BACKGROUND: #316ac5 no-repeat 2px center; COLOR: white; BORDER-TOP: #0a246a 1px solid; BORDER-RIGHT: #0a246a 1px solid; PADDING-TOP: 3px
+}
+.context-menu-theme-vista {
+	BORDER-BOTTOM: #868686 1px solid; BORDER-LEFT: #868686 1px solid; BACKGROUND: url(../images/cmenu-vista-bg.gif) #fafafa repeat-y left top; BORDER-TOP: #868686 1px solid; BORDER-RIGHT: #868686 1px solid
+}
+.context-menu-theme-vista .context-menu-item {
+	TEXT-ALIGN: left; FONT-FAMILY: Tahoma, Arial; COLOR: black; FONT-SIZE: 11px; CURSOR: pointer
+}
+.context-menu-theme-vista .context-menu-separator {
+	BORDER-BOTTOM: #f5f5f5 1px solid; MARGIN: 0px 0px 0px 32px; FONT-SIZE: 0px; BORDER-TOP: #c5c5c5 1px solid
+}
+.context-menu-theme-vista .context-menu-item-hover {
+	BORDER-BOTTOM: #d7d0b3 1px solid; BORDER-LEFT: #d7d0b3 1px solid; BACKGROUND: url(../images/cmenu-vista-menu-item-hover.gif) repeat-x left center; BORDER-TOP: #d7d0b3 1px solid; BORDER-RIGHT: #d7d0b3 1px solid
+}
+.context-menu-theme-vista .context-menu-item .context-menu-item-inner {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 4px; PADDING-LEFT: 35px; PADDING-RIGHT: 16px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 3px center; MARGIN-LEFT: 1px; PADDING-TOP: 4px
+}
+.context-menu-theme-vista .context-menu-item-hover .context-menu-item-inner {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 35px; PADDING-RIGHT: 15px; MARGIN-LEFT: 0px; PADDING-TOP: 3px
+}
+.context-menu-theme-vista .context-menu-item-disabled {
+	COLOR: #a7a7a7
+}
+.context-menu-theme-osx {
+	BORDER-BOTTOM: #b2b2b2 1px solid; FILTER: alpha(opacity=93); BORDER-LEFT: #b2b2b2 1px solid; BACKGROUND-COLOR: white; ZOOM: 1; BORDER-TOP: #b2b2b2 1px solid; BORDER-RIGHT: #b2b2b2 1px solid; opacity: .93
+}
+.context-menu-theme-osx .context-menu-item {
+	Z-INDEX: 1; TEXT-ALIGN: left; FILTER: alpha(opacity=100); FONT-FAMILY: Lucida Grande, Arial; COLOR: black; FONT-SIZE: 12px; CURSOR: pointer; FONT-WEIGHT: 700; opacity: 1.0
+}
+.context-menu-theme-osx .context-menu-separator {
+	MARGIN: 5px 1px 4px; FONT-SIZE: 0px; BORDER-TOP: #e4e4e4 1px solid
+}
+.context-menu-theme-osx .context-menu-item-hover {
+	BACKGROUND-COLOR: #1c44f2; COLOR: white
+}
+.context-menu-theme-osx .context-menu-item .context-menu-item-inner {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 2px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 4px center; PADDING-TOP: 2px
+}
+.context-menu-theme-osx .context-menu-item-disabled {
+	COLOR: #939393
+}
+.context-menu-theme-human {
+	BORDER-BOTTOM: #963 1px solid; BORDER-LEFT: #963 1px solid; BACKGROUND: #f9f5f2; BORDER-TOP: #963 1px solid; BORDER-RIGHT: #963 1px solid
+}
+.context-menu-theme-human .context-menu-item {
+	BORDER-BOTTOM: #f9f5f2 1px solid; TEXT-ALIGN: left; BORDER-LEFT: 0px; LINE-HEIGHT: 20px; FONT-FAMILY: Helvetica, DejaVu Sans, Arial; HEIGHT: 28px; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: #f9f5f2 1px solid; CURSOR: pointer; BORDER-RIGHT: 0px
+}
+.context-menu-theme-human .context-menu-separator {
+	BORDER-BOTTOM: #f5f5f5 1px solid; MARGIN: 0px 0px 0px 32px; FONT-SIZE: 0px; BORDER-TOP: #c5c5c5 1px solid
+}
+.context-menu-theme-human .context-menu-item-hover {
+	BORDER-BOTTOM-COLOR: #963; BORDER-TOP-COLOR: #963; BACKGROUND: url(../images/cmenu-human-menu-item-hover.gif) repeat-x left center; BORDER-RIGHT-COLOR: #963; BORDER-LEFT-COLOR: #963
+}
+.context-menu-theme-human .context-menu-item .context-menu-item-inner {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 4px; PADDING-LEFT: 35px; PADDING-RIGHT: 16px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 3px center; MARGIN-LEFT: 0px; PADDING-TOP: 4px
+}
+.context-menu-theme-human .context-menu-item-hover .context-menu-item-inner {
+	
+}
+.context-menu-theme-human .context-menu-item-disabled {
+	COLOR: #a7a7a7
+}
+.context-menu-theme-gloss {
+	BORDER-BOTTOM: #f4f4f4 1px solid; BORDER-LEFT: #f4f4f4 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/cmenu-gloss-bg.gif) #f4f4f4 repeat-y left center; BORDER-TOP: #f4f4f4 1px solid; BORDER-RIGHT: #f4f4f4 1px solid; PADDING-TOP: 1px
+}
+.context-menu-theme-gloss .context-menu-item {
+	BORDER-BOTTOM: transparent 1px solid; TEXT-ALIGN: left; BORDER-LEFT: transparent 1px solid; LINE-HEIGHT: 20px; FONT-FAMILY: Helvetica, DejaVu Sans, Arial; HEIGHT: 27px; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: transparent 1px solid; CURSOR: pointer; BORDER-RIGHT: transparent 1px solid
+}
+.context-menu-theme-gloss .context-menu-separator {
+	BORDER-BOTTOM: #f5f5f5 1px solid; MARGIN: 0px 0px 0px 32px; FONT-SIZE: 0px; BORDER-TOP: #c5c5c5 1px solid
+}
+.context-menu-theme-gloss .context-menu-item-hover {
+	BORDER-BOTTOM-COLOR: #000; BORDER-TOP-COLOR: #000; BACKGROUND: url(../images/cmenu-gloss-menu-item-hover.gif) repeat-x left center; COLOR: #fff; BORDER-RIGHT-COLOR: #000; BORDER-LEFT-COLOR: #000; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px
+}
+.context-menu-theme-gloss .context-menu-item .context-menu-item-inner {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 4px; PADDING-LEFT: 35px; PADDING-RIGHT: 16px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 3px center; MARGIN-LEFT: 0px; PADDING-TOP: 4px
+}
+.context-menu-theme-gloss .context-menu-item-hover .context-menu-item-inner {
+	
+}
+.context-menu-theme-gloss .context-menu-item-disabled {
+	COLOR: #a7a7a7
+}
+.context-menu-theme-gloss-cyan .context-menu-item-hover {
+	BACKGROUND-IMAGE: url(../images/cmenu-gloss-cyan-menu-item-hover.gif); BORDER-BOTTOM-COLOR: #00c; BORDER-TOP-COLOR: #00c; BORDER-RIGHT-COLOR: #00c; BORDER-LEFT-COLOR: #00c
+}
+.context-menu-theme-gloss-semitransparent .context-menu-item-hover {
+	BACKGROUND-IMAGE: url(cmenu-item-gloss-semitransparent-menu-item-hover.png); BORDER-BOTTOM-COLOR: #00c; BACKGROUND-COLOR: #30f; BORDER-TOP-COLOR: #00c; BORDER-RIGHT-COLOR: #00c; BORDER-LEFT-COLOR: #00c
+}
