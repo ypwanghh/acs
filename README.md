@@ -1,5 +1,7 @@
 # acs - Application Source Code Search #
 
+## This tool could help you search your application source codes easily, enhance your work efficiency. ##
+
 *Pre-install software: Java, Maven, Tomcat*
 	
 You need to config your acs at com.moodys.acs.util.AcsContext, just like below:
