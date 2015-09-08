@@ -4,7 +4,7 @@
 
 *Pre-install software: Java, Maven, Tomcat*
 	
-You need to config your acs at com.moodys.acs.util.AcsContext, just like below:
+You need to config your acs at com.moodys.acs.util.AcsContext.java, just like below:
 
 1. 	WINDOWS_BAT_PATH/LINUX_BAT_PATH = "[Script Of Get/Update Source Codes From Git/CVS/SVN/P4]"
 2. 	FILE_INDEX = "[Lucene Index Path]"
